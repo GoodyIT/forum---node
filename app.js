@@ -25,6 +25,7 @@ if (require.main !== module) {
 	};
 }
 
+
 var nconf = require('nconf');
 nconf.argv().env({
 	separator: '__',
